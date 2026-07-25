@@ -71,12 +71,16 @@ src/intentspec/
   ivr.py                      # compute_ivr(), compute_ivr_by_type()
 scripts/
   run_experiment1.py          # main entry point: generate -> evaluate -> compute IVR
+                               #   (MODEL constant selects claude-sonnet-4-6 vs gpt-4.1)
   validate_benchmark.py       # soundness check: canonical solutions vs. all constraint tests
   plot_ivr_distribution.py    # histogram of per-task IVR from a results file
   flatten_specs.py            # maintenance utility: dedupe spec_pairs.jsonl by task_id
+compute_ci.py                  # 95% bootstrap CI on overall IVR, per model (see below)
 results/
-  experiment1.json            # full results from the last run_experiment1.py run
+  experiment1.json            # full results from the last run_experiment1.py run (claude-sonnet-4-6)
+  experiment1_gpt-4_1.json    # full results from run_experiment1.py with MODEL = "gpt-4.1"
   experiment1_ivr_distribution.png
+  experiment1_gpt-4_1_ivr_distribution.png
 tests/                        # unit tests for schema/dataset/execute/ivr
 ```
 
@@ -113,6 +117,33 @@ rm -rf data/generations
 export ANTHROPIC_API_KEY=sk-ant-...
 python scripts/run_experiment1.py
 ```
+
+## Bootstrap Confidence Intervals
+
+```bash
+python compute_ci.py
+```
+
+Takes no arguments. For each of `results/experiment1.json` (Claude Sonnet
+4.6) and `results/experiment1_gpt-4_1.json` (GPT-4.1), it recomputes overall
+IVR from the same qualifying problems `run_experiment1.py` used (only
+spec pairs with ≥1 stated-passing solution), then estimates a 95% CI by
+resampling those per-problem IVRs with replacement (10,000 resamples, same
+n as the number of qualifying problems) and taking the 2.5th/97.5th
+percentiles of the resulting means.
+
+**`np.random.seed(42)` is set once before the bootstrap loop for each
+model**, so the CI bounds are deterministic and identical on every run —
+this is what makes the reported CIs reproducible in CI (and re-running it
+yourself should print exactly:
+
+```
+Claude Sonnet 4.6: IVR = 54.5% (95% CI: 40.4%–68.1%), n=47
+GPT-4.1: IVR = 63.5% (95% CI: 50.0%–76.5%), n=46
+```
+
+`compute_ci.py` only reads `results/*.json` — it never modifies the result
+files it consumes.
 
 ## Validating the Benchmark
 
