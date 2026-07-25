@@ -22,11 +22,17 @@ from intentspec.schema import SolutionResult
 
 REPO_ROOT = Path(__file__).parent.parent
 
+_MODEL_DISPLAY_NAMES = {
+    "claude-sonnet-4-6": "Claude Sonnet 4.6",
+    "gpt-4.1": "OpenAI GPT 4.1",
+}
 
-def load_per_task_ivr(results_path: Path) -> dict[str, float]:
+
+def load_per_task_ivr(results_path: Path) -> tuple[dict[str, float], str]:
     with open(results_path, encoding="utf-8") as f:
         data = json.load(f)
 
+    model = data.get("model", "")
     per_task_ivr: dict[str, float] = {}
     for task_id, solutions in data["per_task"].items():
         results = [
@@ -42,16 +48,16 @@ def load_per_task_ivr(results_path: Path) -> dict[str, float]:
         ivr = compute_ivr(results)
         if ivr.n_passing_stated > 0:
             per_task_ivr[task_id] = ivr.ivr_score
-    return per_task_ivr
+    return per_task_ivr, model
 
 
 def main() -> None:
-    results_path = Path(sys.argv[1]) if len(sys.argv) > 1 else REPO_ROOT / "results" / "experiment1.json"
+    results_path = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else REPO_ROOT / "results" / "experiment1.json"
     if not results_path.exists():
         print(f"Error: results file not found at {results_path}", file=sys.stderr)
         sys.exit(1)
 
-    per_task_ivr = load_per_task_ivr(results_path)
+    per_task_ivr, model = load_per_task_ivr(results_path)
     if not per_task_ivr:
         print("No tasks with passing-stated solutions found; nothing to plot.", file=sys.stderr)
         sys.exit(1)
@@ -68,7 +74,8 @@ def main() -> None:
     ax1.axvline(sum(scores) / len(scores), color="red", linestyle="--", label=f"mean = {sum(scores) / len(scores):.2f}")
     ax1.legend()
 
-    fig.suptitle("Intent Violation Rate")
+    display_name = _MODEL_DISPLAY_NAMES.get(model, model)
+    fig.suptitle(f"{display_name} Intent Violation Rate")
     fig.tight_layout()
 
     out_path = results_path.parent / f"{results_path.stem}_ivr_distribution.png"
