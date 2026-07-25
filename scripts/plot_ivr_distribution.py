@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).parent.parent
 
 _MODEL_DISPLAY_NAMES = {
     "claude-sonnet-4-6": "Claude Sonnet 4.6",
-    "gpt-4.1": "OpenAI GPT 4.1",
+    "gpt-4.1": "GPT-4.1",
 }
 
 
@@ -70,12 +70,11 @@ def main() -> None:
     ax1.hist(scores, bins=bins, edgecolor="black", color="#4C72B0")
     ax1.set_xlabel("IVR Score")
     ax1.set_ylabel("Number of Tasks")
-    ax1.set_title(f"Distribution of per-task IVR (n={len(scores)})")
+    display_name = _MODEL_DISPLAY_NAMES.get(model, model)
+    ax1.set_title(f"{display_name} Intent Violation Rate")
     ax1.axvline(sum(scores) / len(scores), color="red", linestyle="--", label=f"mean = {sum(scores) / len(scores):.2f}")
     ax1.legend()
 
-    display_name = _MODEL_DISPLAY_NAMES.get(model, model)
-    fig.suptitle(f"{display_name} Intent Violation Rate")
     fig.tight_layout()
 
     out_path = results_path.parent / f"{results_path.stem}_ivr_distribution.png"
