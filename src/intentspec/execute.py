@@ -4,7 +4,7 @@ import subprocess
 import sys
 import textwrap
 
-from .schema import SpecPair, SolutionResult
+from .schema import SolutionResult, SpecPair
 
 
 def run_solution(solution_code: str, test_code: str, timeout: float = 5.0) -> bool:
@@ -20,6 +20,7 @@ def run_solution(solution_code: str, test_code: str, timeout: float = 5.0) -> bo
             timeout=timeout,
             capture_output=True,
             text=True,
+            check=False,
         )
         return result.returncode == 0
     except subprocess.TimeoutExpired:

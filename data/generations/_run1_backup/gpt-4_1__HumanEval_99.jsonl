@@ -1,5 +1,0 @@
-{"solution": "def solution(value):\n    return int(float(value)+0.5) if float(value) > 0 else int(float(value)-0.5)"}
-{"solution": "def solution(value):\n    return int(float(value) + 0.5) if float(value) > 0 else int(float(value) - 0.5)"}
-{"solution": "def solution(value):\n    return int(float(value) + 0.5) if float(value) > 0 else int(float(value) - 0.5)"}
-{"solution": "def solution(value):\n    return round(float(value))"}
-{"solution": "def solution(value):\n    return int(float(value) + 0.5) if float(value) > 0 else int(float(value) - 0.5)"}

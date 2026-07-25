@@ -1,5 +1,0 @@
-{"solution": "def solution(nums, a=1, b=0):\n    \"\"\"\n    Applies a linear transformation f(x) = a*x + b to each element in the input list.\n    Defaults: a=1, b=0 (identity transform).\n    \n    Args:\n        nums: List of numbers.\n        a: Multiplier (default 1).\n        b: Increment (default 0).\n    Returns:\n        List of transformed numbers.\n    \"\"\"\n    return [a * x + b for x in nums]"}
-{"solution": "def solution(numbers):\n    a = 2\n    b = 3\n    return [a * x + b for x in numbers]"}
-{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
-{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
-{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}

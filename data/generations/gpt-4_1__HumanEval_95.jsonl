@@ -1,5 +1,5 @@
-{"solution": "def solution(d):\n    if not isinstance(d, dict):\n        return False\n    keys = d.keys()\n    if not keys:\n        return True\n    all_lower = all(str(k).islower() for k in keys)\n    all_upper = all(str(k).isupper() for k in keys)\n    return all_lower or all_upper"}
-{"solution": "def solution(d):\n    keys = list(d.keys())\n    return all(isinstance(k, str) and k.islower() for k in keys) or all(isinstance(k, str) and k.isupper() for k in keys)"}
-{"solution": "def solution(d):\n    if not isinstance(d, dict):\n        return False\n    keys = list(d.keys())\n    return all(isinstance(k, str) and k.islower() for k in keys) or all(isinstance(k, str) and k.isupper() for k in keys)"}
+{"solution": "def solution(d):\n    if not isinstance(d, dict):\n        return False\n    keys = list(d.keys())\n    if not keys:\n        return True\n    all_lower = all(isinstance(k, str) and k.islower() for k in keys)\n    all_upper = all(isinstance(k, str) and k.isupper() for k in keys)\n    return all_lower or all_upper"}
 {"solution": "def solution(d):\n    return all(k.islower() for k in d) or all(k.isupper() for k in d)"}
-{"solution": "def solution(d):\n    if not isinstance(d, dict): return False\n    keys = d.keys()\n    return all(isinstance(k, str) and k.islower() for k in keys) or all(isinstance(k, str) and k.isupper() for k in keys)"}
+{"solution": "def solution(d):\n    if not d:\n        return True\n    keys = list(d.keys())\n    return all(str(k).islower() for k in keys) or all(str(k).isupper() for k in keys)"}
+{"solution": "def solution(d):\n    keys = list(d.keys())\n    if not keys:\n        return True\n    return all(str(k).islower() for k in keys) or all(str(k).isupper() for k in keys)"}
+{"solution": "def solution(d):\n    if not isinstance(d, dict):\n        return False\n    keys = d.keys()\n    return all(isinstance(k, str) and k.islower() for k in keys) or all(isinstance(k, str) and k.isupper() for k in keys)"}

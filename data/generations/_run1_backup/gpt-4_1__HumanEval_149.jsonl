@@ -1,5 +1,0 @@
-{"solution": "def solution(strings):\n    return sorted([s for s in strings if len(s) % 2 == 0], key=len)"}
-{"solution": "def solution(strings):\n    return sorted([s for s in strings if len(s) % 2 == 0], key=len)"}
-{"solution": "def solution(strings):\n    return sorted([s for s in strings if len(s) % 2 == 0], key=len)"}
-{"solution": "def solution(strings):\n    return sorted([s for s in strings if len(s) % 2 == 0], key=len)"}
-{"solution": "def solution(lst):\n    return sorted([s for s in lst if len(s) % 2 == 0], key=len)"}

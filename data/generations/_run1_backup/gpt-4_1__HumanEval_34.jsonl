@@ -1,5 +1,0 @@
-{"solution": "def solution(lst):\n    return list(set(lst))"}
-{"solution": "def solution(lst):\n    return list(dict.fromkeys(lst))"}
-{"solution": "def solution(lst):\n    return list(dict.fromkeys(lst))"}
-{"solution": "def solution(lst):\n    return list(set(lst))"}
-{"solution": "def solution(lst):\n    return list(dict.fromkeys(lst))"}

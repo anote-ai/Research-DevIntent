@@ -1,9 +1,9 @@
 {
   "model": "gpt-4.1",
   "n_solutions_per_spec": 5,
-  "overall_ivr": 0.6434782608695653,
+  "overall_ivr": 0.6347826086956522,
   "ivr_by_type": {
-    "algorithm": 0.6434782608695653
+    "algorithm": 0.6347826086956522
   },
   "per_task": {
     "HumanEval/26": [
@@ -57,10 +57,11 @@
       {
         "passes_stated": true,
         "passed_hidden": [
-          "C2",
           "C3"
         ],
-        "failed_hidden": []
+        "failed_hidden": [
+          "C2"
+        ]
       },
       {
         "passes_stated": true,
@@ -419,14 +420,7 @@
     ],
     "HumanEval/34": [
       {
-        "passes_stated": true,
-        "passed_hidden": [],
-        "failed_hidden": [
-          "C2"
-        ]
-      },
-      {
-        "passes_stated": true,
+        "passes_stated": false,
         "passed_hidden": [],
         "failed_hidden": [
           "C2"
@@ -448,6 +442,13 @@
       },
       {
         "passes_stated": false,
+        "passed_hidden": [],
+        "failed_hidden": [
+          "C2"
+        ]
+      },
+      {
+        "passes_stated": true,
         "passed_hidden": [],
         "failed_hidden": [
           "C2"
@@ -698,41 +699,41 @@
       {
         "passes_stated": true,
         "passed_hidden": [
-          "C2"
-        ],
-        "failed_hidden": [
-          "C3",
-          "C4"
-        ]
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [
-          "C2"
-        ],
-        "failed_hidden": [
-          "C3",
-          "C4"
-        ]
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [
-          "C2"
-        ],
-        "failed_hidden": [
-          "C3",
-          "C4"
-        ]
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [
           "C2",
           "C3",
           "C4"
         ],
         "failed_hidden": []
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [
+          "C2"
+        ],
+        "failed_hidden": [
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [
+          "C2"
+        ],
+        "failed_hidden": [
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [
+          "C2"
+        ],
+        "failed_hidden": [
+          "C3",
+          "C4"
+        ]
       }
     ],
     "HumanEval/70": [
@@ -856,11 +857,10 @@
       {
         "passes_stated": true,
         "passed_hidden": [
+          "C2",
           "C3"
         ],
-        "failed_hidden": [
-          "C2"
-        ]
+        "failed_hidden": []
       },
       {
         "passes_stated": true,
@@ -1230,19 +1230,19 @@
       },
       {
         "passes_stated": true,
-        "passed_hidden": [],
-        "failed_hidden": [
+        "passed_hidden": [
           "C2",
           "C3"
-        ]
+        ],
+        "failed_hidden": []
       },
       {
         "passes_stated": true,
-        "passed_hidden": [],
-        "failed_hidden": [
+        "passed_hidden": [
           "C2",
           "C3"
-        ]
+        ],
+        "failed_hidden": []
       }
     ],
     "HumanEval/102": [
@@ -1660,19 +1660,19 @@
       {
         "passes_stated": true,
         "passed_hidden": [
-          "C3"
+          "C2"
         ],
         "failed_hidden": [
-          "C2"
+          "C3"
         ]
       },
       {
         "passes_stated": true,
         "passed_hidden": [
-          "C2"
+          "C3"
         ],
         "failed_hidden": [
-          "C3"
+          "C2"
         ]
       },
       {
@@ -1854,10 +1854,9 @@
       },
       {
         "passes_stated": true,
-        "passed_hidden": [
-          "C2"
-        ],
+        "passed_hidden": [],
         "failed_hidden": [
+          "C2",
           "C3"
         ]
       }
@@ -1953,31 +1952,31 @@
     ],
     "HumanEval/101": [
       {
+        "passes_stated": true,
+        "passed_hidden": [],
+        "failed_hidden": [
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [],
+        "failed_hidden": [
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [],
+        "failed_hidden": [
+          "C2",
+          "C3"
+        ]
+      },
+      {
         "passes_stated": false,
-        "passed_hidden": [],
-        "failed_hidden": [
-          "C2",
-          "C3"
-        ]
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [],
-        "failed_hidden": [
-          "C2",
-          "C3"
-        ]
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [],
-        "failed_hidden": [
-          "C2",
-          "C3"
-        ]
-      },
-      {
-        "passes_stated": true,
         "passed_hidden": [],
         "failed_hidden": [
           "C2",
@@ -1997,43 +1996,43 @@
       {
         "passes_stated": true,
         "passed_hidden": [
+          "C2",
+          "C3"
+        ],
+        "failed_hidden": []
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [
+          "C2",
+          "C3"
+        ],
+        "failed_hidden": []
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [
+          "C2",
+          "C3"
+        ],
+        "failed_hidden": []
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [
+          "C2",
+          "C3"
+        ],
+        "failed_hidden": []
+      },
+      {
+        "passes_stated": true,
+        "passed_hidden": [
           "C3"
         ],
         "failed_hidden": [
           "C2"
         ]
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [
-          "C2",
-          "C3"
-        ],
-        "failed_hidden": []
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [
-          "C2",
-          "C3"
-        ],
-        "failed_hidden": []
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [
-          "C2",
-          "C3"
-        ],
-        "failed_hidden": []
-      },
-      {
-        "passes_stated": true,
-        "passed_hidden": [
-          "C2",
-          "C3"
-        ],
-        "failed_hidden": []
       }
     ],
     "HumanEval/111": [

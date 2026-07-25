@@ -1,5 +1,5 @@
 {"solution": "def solution(s):\n    vowels = {'A', 'E', 'I', 'O', 'U'}\n    return sum(1 for i in range(0, len(s), 2) if s[i] in vowels)"}
+{"solution": "def solution(s):\n    return sum(1 for i in range(0, len(s), 2) if s[i] in 'AEIOU')"}
 {"solution": "def solution(s):\n    vowels = {'A', 'E', 'I', 'O', 'U'}\n    return sum(1 for i in range(0, len(s), 2) if s[i] in vowels)"}
 {"solution": "def solution(s):\n    vowels = {'A', 'E', 'I', 'O', 'U'}\n    return sum(1 for i in range(0, len(s), 2) if s[i] in vowels)"}
-{"solution": "def solution(s):\n    vowels = {'A', 'E', 'I', 'O', 'U'}\n    count = 0\n    for i in range(0, len(s), 2):\n        if s[i] in vowels:\n            count += 1\n    return count"}
-{"solution": "def solution(s):\n    vowels = {'A', 'E', 'I', 'O', 'U'}\n    return sum(1 for i, c in enumerate(s) if i % 2 == 0 and c in vowels)"}
+{"solution": "def solution(s):\n    vowels = {'A', 'E', 'I', 'O', 'U'}\n    return sum(1 for i in range(0, len(s), 2) if s[i] in vowels)"}

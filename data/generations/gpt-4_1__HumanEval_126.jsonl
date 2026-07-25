@@ -1,5 +1,5 @@
-{"solution": "def solution(nums):\n    return all(nums[i] <= nums[i+1] for i in range(len(nums)-1))"}
 {"solution": "def solution(lst):\n    return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))"}
-{"solution": "def solution(lst):\n    return all(x <= y for x, y in zip(lst, lst[1:]))"}
+{"solution": "def solution(lst):\n    return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))"}
+{"solution": "def solution(numbers):\n    return all(numbers[i] <= numbers[i+1] for i in range(len(numbers)-1))"}
 {"solution": "def solution(lst):\n    return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))"}
 {"solution": "def solution(lst):\n    return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))"}

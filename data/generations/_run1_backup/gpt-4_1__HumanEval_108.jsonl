@@ -1,5 +1,0 @@
-{"solution": "def solution(arr):\n    def digit_sum(n):\n        return sum(int(d) for d in str(abs(n)))\n    return sum(1 for x in arr if digit_sum(x) > 0)"}
-{"solution": "def solution(arr):\n    def digit_sum(n):\n        return sum(int(d) for d in str(abs(n)))\n    return sum(1 for x in arr if digit_sum(x) > 0)"}
-{"solution": "def solution(arr):\n    def digit_sum(n):\n        return sum(int(d) for d in str(abs(n)))\n    return sum(1 for n in arr if digit_sum(n) > 0)"}
-{"solution": "def solution(arr):\n    def digit_sum(n):\n        return sum(int(digit) for digit in str(abs(n)))\n    return sum(1 for num in arr if digit_sum(num) > 0)"}
-{"solution": "def solution(arr):\n    def digit_sum(n):\n        return sum(int(d) for d in str(abs(n)))\n    return sum(1 for x in arr if digit_sum(x) > 0)"}

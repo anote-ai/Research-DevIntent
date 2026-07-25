@@ -1,5 +1,5 @@
+{"solution": "def solution(lst, a=1, b=0):\n    return [a*x + b for x in lst]"}
+{"solution": "def solution(numbers):\n    a = 2  # slope\n    b = 3  # intercept\n    return [a * x + b for x in numbers]"}
+{"solution": "def solution(numbers):\n    a = 2\n    b = 3\n    return [a * x + b for x in numbers]"}
 {"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
 {"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
-{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
-{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
-{"solution": "def solution(numbers):\n    a = 2  # example scale factor\n    b = 3  # example shift value\n    return [a * x + b for x in numbers]"}

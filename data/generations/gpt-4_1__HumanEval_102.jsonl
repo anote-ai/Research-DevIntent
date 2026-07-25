@@ -1,5 +1,5 @@
-{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 == 0:\n        return end\n    elif end - 1 >= start:\n        return end - 1\n    else:\n        return None"}
-{"solution": "def solution(a, b):\n    low, high = min(a, b), max(a, b)\n    if high % 2 != 0:\n        high -= 1\n    if high < low:\n        return None\n    return high if high % 2 == 0 else None"}
-{"solution": "def solution(a, b):\n    low, high = min(a, b), max(a, b)\n    if high % 2 != 0:\n        high -= 1\n    return high if high >= low else None"}
-{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 != 0:\n        end -= 1\n    if end < start:\n        return None\n    return end if end % 2 == 0 else None"}
-{"solution": "def solution(a, b):\n    low = min(a, b)\n    high = max(a, b)\n    if high % 2 == 0:\n        return high\n    elif high - 1 >= low:\n        return high - 1\n    else:\n        return None"}
+{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 != 0:\n        end -= 1\n    if end < start:\n        return None\n    return end if end >= start else None"}
+{"solution": "def solution(a, b):\n    low, high = min(a, b), max(a, b)\n    if high % 2 == 0:\n        return high\n    elif high - 1 >= low:\n        return high - 1\n    else:\n        return None"}
+{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 == 0:\n        return end\n    biggest_even = end - 1\n    if biggest_even >= start:\n        return biggest_even\n    return None"}
+{"solution": "def solution(a, b):\n    low = min(a, b)\n    high = max(a, b)\n    if high % 2 != 0:\n        high -= 1\n    return high if high >= low else None"}
+{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 != 0:\n        end -= 1\n    if end < start:\n        return None\n    return end if end >= start else None"}

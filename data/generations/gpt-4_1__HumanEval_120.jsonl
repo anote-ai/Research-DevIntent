@@ -2,4 +2,4 @@
 {"solution": "def solution(arr, k):\n    return sorted(sorted(arr, reverse=True)[:k])"}
 {"solution": "def solution(arr, k):\n    return sorted(sorted(arr, reverse=True)[:k])"}
 {"solution": "def solution(arr, k):\n    return sorted(sorted(arr, reverse=True)[:k])"}
-{"solution": "def solution(arr, k):\n    import heapq\n    return sorted(heapq.nlargest(k, arr))"}
+{"solution": "def solution(arr, k):\n    return sorted(sorted(arr, reverse=True)[:k])"}

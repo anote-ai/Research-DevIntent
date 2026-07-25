@@ -1,11 +1,13 @@
 """Tests for schema.py — core data structures for System B (IVR pipeline)."""
-import sys
 import os
+import sys
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
+import pydantic
 import pytest
-from intentspec.schema import ConstraintTest, IVRResult, SpecPair, SolutionResult
 
+from intentspec.schema import ConstraintTest, IVRResult, SolutionResult, SpecPair
 
 # --- ConstraintTest ---
 
@@ -17,7 +19,7 @@ def test_constraint_test_construction():
 
 
 def test_constraint_test_requires_all_fields():
-    with pytest.raises(Exception):
+    with pytest.raises(pydantic.ValidationError):
         ConstraintTest(id="C1")  # missing description and test_code
 
 
@@ -44,7 +46,7 @@ def test_spec_pair_construction():
 
 
 def test_spec_pair_invalid_spec_type():
-    with pytest.raises(Exception):
+    with pytest.raises(pydantic.ValidationError):
         SpecPair(
             task_id="X",
             spec_type="unsupported_type",

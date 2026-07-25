@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from .schema import IVRResult, SpecPair, SolutionResult
+from .schema import IVRResult, SolutionResult, SpecPair
 
 
 def compute_ivr(results: list[SolutionResult]) -> IVRResult:

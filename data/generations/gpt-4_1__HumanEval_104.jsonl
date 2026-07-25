@@ -1,5 +1,5 @@
-{"solution": "def solution(numbers):\n    return [n for n in numbers if all(int(d) % 2 == 1 for d in str(n))]"}
+{"solution": "def solution(lst):\n    return [num for num in lst if all(int(d) % 2 != 0 for d in str(num))]"}
 {"solution": "def solution(lst):\n    return [x for x in lst if all(int(d) % 2 == 1 for d in str(x))]"}
-{"solution": "def solution(lst):\n    return [num for num in lst if all(int(d) % 2 for d in str(num))]"}
-{"solution": "def solution(lst):\n    return [x for x in lst if all(int(d)%2==1 for d in str(x))]"}
-{"solution": "def solution(lst):\n    return [x for x in lst if all(int(digit) % 2 == 1 for digit in str(x))]"}
+{"solution": "def solution(lst):\n    return [x for x in lst if all(int(d) % 2 == 1 for d in str(x))]"}
+{"solution": "def solution(lst):\n    return [x for x in lst if all(int(d) % 2 == 1 for d in str(x))]"}
+{"solution": "def solution(lst):\n    return [num for num in lst if all(int(d) % 2 == 1 for d in str(num))]"}

@@ -1,5 +1,5 @@
-{"solution": "def solution(a, b):\n    result = []\n    for num in range(a, b + 1):\n        for digit in str(num):\n            if digit in '02468':\n                result.append(int(digit))\n    return result"}
-{"solution": "def solution(a, b):\n    return [d for d in range(a, b+1) if 0 <= d <= 9 and d % 2 == 0]"}
+{"solution": "def solution(a, b):\n    result = []\n    for num in range(a, b+1):\n        for digit in str(num):\n            if int(digit) % 2 == 0:\n                result.append(int(digit))\n    return result"}
 {"solution": "def solution(a, b):\n    return [d for d in range(0, 10, 2) if a <= d <= b]"}
 {"solution": "def solution(a, b):\n    return [d for d in range(0, 10, 2) if a <= d <= b]"}
-{"solution": "def solution(a, b):\n    return [d for d in range(0, 10, 2) if a <= d <= b]"}
+{"solution": "def solution(a, b):\n    return [d for d in range(max(0, a), b+1) if d % 2 == 0 and len(str(d)) == 1]"}
+{"solution": "def solution(a, b):\n    evens = []\n    for num in range(a, b + 1):\n        for digit in str(num):\n            d = int(digit)\n            if d % 2 == 0 and d not in evens:\n                evens.append(d)\n    return evens"}

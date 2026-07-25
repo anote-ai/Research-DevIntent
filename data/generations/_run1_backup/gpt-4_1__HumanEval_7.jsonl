@@ -1,5 +1,0 @@
-{"solution": "def solution(strings, substring):\n    return [s for s in strings if substring in s]"}
-{"solution": "def solution(strings, substring):\n    return [s for s in strings if substring in s]"}
-{"solution": "def solution(strings, substring):\n    return [s for s in strings if substring in s]"}
-{"solution": "def solution(strings, substring):\n    return [s for s in strings if substring in s]"}
-{"solution": "def solution(strings, substring):\n    return [s for s in strings if substring in s]"}

@@ -1,13 +1,14 @@
 """Tests for dataset.py — spec pair loading."""
 import json
-import sys
 import os
+import sys
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
 import pytest
+
 from intentspec.dataset import load_spec_pairs
 from intentspec.schema import SpecPair
-
 
 _EXAMPLE_PAIR = {
     "task_id": "T001",
@@ -25,8 +26,7 @@ _EXAMPLE_PAIR = {
 
 def _write_jsonl(path, entries: list[dict]) -> None:
     with open(path, "w") as f:
-        for entry in entries:
-            f.write(json.dumps(entry) + "\n")
+        f.writelines(json.dumps(entry) + "\n" for entry in entries)
 
 
 def test_load_spec_pairs_returns_list(tmp_path):

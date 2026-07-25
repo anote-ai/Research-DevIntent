@@ -1,5 +1,0 @@
-{"solution": "def solution(strings):\n    return max(strings, key=len) if strings else ''"}
-{"solution": "def solution(strings):\n    if not strings:\n        return ''\n    return max(strings, key=len)"}
-{"solution": "def solution(strings):\n    if not strings:\n        return \"\"\n    return max(strings, key=len)"}
-{"solution": "def solution(strings):\n    if not strings:\n        return ''\n    return max(strings, key=len)"}
-{"solution": "def solution(strings):\n    return max(strings, key=len) if strings else ''"}
