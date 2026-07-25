@@ -1,0 +1,5 @@
+{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
+{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
+{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
+{"solution": "def solution(numbers, a=1, b=0):\n    return [a * x + b for x in numbers]"}
+{"solution": "def solution(numbers):\n    a = 2  # example scale factor\n    b = 3  # example shift value\n    return [a * x + b for x in numbers]"}

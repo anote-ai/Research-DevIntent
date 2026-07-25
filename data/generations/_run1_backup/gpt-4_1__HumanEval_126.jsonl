@@ -1,0 +1,5 @@
+{"solution": "def solution(lst):\n    return lst == sorted(lst)"}
+{"solution": "def solution(lst):\n    for i in range(len(lst) - 1):\n        if lst[i] > lst[i + 1]:\n            return False\n    return True"}
+{"solution": "def solution(lst):\n    return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))"}
+{"solution": "def solution(lst):\n    return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))"}
+{"solution": "def solution(lst):\n    return all(lst[i] <= lst[i + 1] for i in range(len(lst) - 1))"}

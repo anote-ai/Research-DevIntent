@@ -1,0 +1,5 @@
+{"solution": "def solution(lst):\n    return sorted(lst, key=lambda x: sum(int(d) for d in str(abs(x))))"}
+{"solution": "def solution(lst):\n    return sorted(lst, key=lambda x: sum(int(d) for d in str(abs(x))))"}
+{"solution": "def solution(lst):\n    return sorted(lst, key=lambda x: sum(int(d) for d in str(abs(x))))"}
+{"solution": "def solution(lst):\n    return sorted(lst, key=lambda x: sum(map(int, str(abs(x)))))"}
+{"solution": "def solution(lst):\n    return sorted(lst, key=lambda x: sum(int(d) for d in str(abs(x))))"}

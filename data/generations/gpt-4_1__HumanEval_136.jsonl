@@ -1,0 +1,5 @@
+{"solution": "def solution(lst):\n    negatives = [x for x in lst if x < 0]\n    positives = [x for x in lst if x > 0]\n    a = max(negatives) if negatives else None\n    b = min(positives) if positives else None\n    return (a, b)"}
+{"solution": "def solution(lst):\n    negs = [x for x in lst if x < 0]\n    poss = [x for x in lst if x > 0]\n    a = max(negs) if negs else None\n    b = min(poss) if poss else None\n    return (a, b)"}
+{"solution": "def solution(lst):\n    negs = [x for x in lst if x < 0]\n    poss = [x for x in lst if x > 0]\n    a = max(negs) if negs else None\n    b = min(poss) if poss else None\n    return (a, b)"}
+{"solution": "def solution(lst):\n    negs = [x for x in lst if x < 0]\n    pos = [x for x in lst if x > 0]\n    a = max(negs) if negs else None\n    b = min(pos) if pos else None\n    return (a, b)"}
+{"solution": "def solution(lst):\n    negatives = [x for x in lst if x < 0]\n    positives = [x for x in lst if x > 0]\n    a = max(negatives) if negatives else None\n    b = min(positives) if positives else None\n    return (a, b)"}

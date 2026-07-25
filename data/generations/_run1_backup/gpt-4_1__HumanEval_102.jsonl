@@ -1,0 +1,5 @@
+{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 != 0:\n        end -= 1\n    return end if end >= start else None"}
+{"solution": "def solution(a, b):\n    low = min(a, b)\n    high = max(a, b)\n    if high % 2 == 0:\n        return high\n    elif high - 1 >= low:\n        return high - 1\n    else:\n        return None"}
+{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 != 0:\n        end -= 1\n    return end if end >= start else None"}
+{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 != 0:\n        end -= 1\n    if end >= start:\n        return end\n    return None"}
+{"solution": "def solution(a, b):\n    start = min(a, b)\n    end = max(a, b)\n    if end % 2 != 0:\n        end -= 1\n    if end < start:\n        return None\n    else:\n        return end"}

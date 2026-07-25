@@ -5,11 +5,12 @@ Usage (from repo root):
     python scripts/run_experiment1.py
 
 Loads spec pairs from data/specs/spec_pairs.jsonl, generates 5 solutions per
-spec pair using the Anthropic API (claude-sonnet-4-6), evaluates each solution
-against stated and hidden constraint tests, and reports IVR overall and by
-spec type. Results are saved to results/experiment1.json.
+spec pair using the configured model's API, evaluates each solution against
+stated and hidden constraint tests, and reports IVR overall and by spec type.
+Results are saved to results/experiment1_{model}.json.
 
-Set ANTHROPIC_API_KEY in your environment before running.
+Set ANTHROPIC_API_KEY (for claude-* models) or OPENAI_API_KEY (for gpt-*/o1-*/
+o3-*/codex-* models) in your environment or in a .env file before running.
 """
 from __future__ import annotations
 
@@ -28,7 +29,7 @@ SPECS_PATH = REPO_ROOT / "data" / "specs" / "spec_pairs.jsonl"
 CACHE_DIR = REPO_ROOT / "data" / "generations"
 RESULTS_DIR = REPO_ROOT / "results"
 N_SOLUTIONS = 5
-MODEL = "claude-sonnet-4-6"
+MODEL = "gpt-4.1"
 
 
 def main() -> None:
@@ -97,7 +98,8 @@ def main() -> None:
             for tid, task_results in all_results.items()
         },
     }
-    output_path = RESULTS_DIR / "experiment1.json"
+    safe_model = MODEL.replace("/", "_").replace(".", "_")
+    output_path = RESULTS_DIR / f"experiment1_{safe_model}.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
     print(f"\nFull results saved to {output_path.relative_to(REPO_ROOT)}")

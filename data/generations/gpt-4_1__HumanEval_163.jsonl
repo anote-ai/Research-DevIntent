@@ -1,0 +1,5 @@
+{"solution": "def solution(a, b):\n    result = []\n    for num in range(a, b + 1):\n        for digit in str(num):\n            if digit in '02468':\n                result.append(int(digit))\n    return result"}
+{"solution": "def solution(a, b):\n    return [d for d in range(a, b+1) if 0 <= d <= 9 and d % 2 == 0]"}
+{"solution": "def solution(a, b):\n    return [d for d in range(0, 10, 2) if a <= d <= b]"}
+{"solution": "def solution(a, b):\n    return [d for d in range(0, 10, 2) if a <= d <= b]"}
+{"solution": "def solution(a, b):\n    return [d for d in range(0, 10, 2) if a <= d <= b]"}

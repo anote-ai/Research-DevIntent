@@ -1,0 +1,5 @@
+{"solution": "def solution(s):\n    return s.swapcase()"}
+{"solution": "def solution(s):\n    return ''.join(c.lower() if c.isupper() else c.upper() if c.islower() else c for c in s)"}
+{"solution": "def solution(s):\n    return ''.join(c.lower() if c.isupper() else c.upper() if c.isalpha() else c for c in s)"}
+{"solution": "def solution(s):\n    return ''.join(c.lower() if c.isupper() else c.upper() if c.islower() else c for c in s)"}
+{"solution": "def solution(s):\n    return s.swapcase()"}

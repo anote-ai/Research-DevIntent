@@ -1,0 +1,5 @@
+{"solution": "def solution(words):\n    return max(words, key=lambda w: len(set(w))) if words else None"}
+{"solution": "def solution(words):\n    return max(words, key=lambda w: len(set(w))) if words else None"}
+{"solution": "def solution(words):\n    return max(words, key=lambda w: len(set(w))) if words else None"}
+{"solution": "def solution(words):\n    return max(words, key=lambda w: len(set(w))) if words else None"}
+{"solution": "def solution(words):\n    return max(words, key=lambda w: len(set(w))) if words else None"}

@@ -65,6 +65,7 @@ def _call_openai(prompt: str, model: str) -> str:
     response = client.chat.completions.create(
         model=model,
         max_tokens=1024,
+        temperature=1.0,
         messages=[{"role": "user", "content": prompt}],
     )
     content = response.choices[0].message.content

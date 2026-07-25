@@ -1,0 +1,5 @@
+{"solution": "def solution(numbers):\n    return [x for x in numbers if x > 0]"}
+{"solution": "def solution(numbers):\n    return [x for x in numbers if x > 0]"}
+{"solution": "def solution(numbers):\n    return [x for x in numbers if x > 0]"}
+{"solution": "def solution(numbers):\n    return [x for x in numbers if x > 0]"}
+{"solution": "def solution(numbers):\n    return [num for num in numbers if num > 0]"}

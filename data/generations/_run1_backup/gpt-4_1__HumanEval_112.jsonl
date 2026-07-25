@@ -1,0 +1,5 @@
+{"solution": "def solution(s, c):\n    filtered = ''.join(ch for ch in s if ch not in set(c))\n    return filtered == filtered[::-1]"}
+{"solution": "def solution(s, c):\n    s_new = ''.join(ch for ch in s if ch not in c)\n    return s_new == s_new[::-1]"}
+{"solution": "def solution(s, c):\n    filtered = ''.join(ch for ch in s if ch not in c)\n    return filtered == filtered[::-1]"}
+{"solution": "def solution(s, c):\n    s_filtered = ''.join(ch for ch in s if ch not in c)\n    return s_filtered == s_filtered[::-1]"}
+{"solution": "def solution(s, c):\n    filtered = ''.join(char for char in s if char not in c)\n    return filtered == filtered[::-1]"}

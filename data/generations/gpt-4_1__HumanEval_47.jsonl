@@ -1,0 +1,5 @@
+{"solution": "def solution(lst):\n    s = sorted(lst)\n    n = len(s)\n    mid = n // 2\n    if n % 2 == 1:\n        return s[mid]\n    else:\n        return (s[mid - 1] + s[mid]) / 2"}
+{"solution": "def solution(lst):\n    if not lst:\n        return None\n    s = sorted(lst)\n    n = len(s)\n    mid = n // 2\n    if n % 2 == 0:\n        return (s[mid - 1] + s[mid]) / 2\n    else:\n        return s[mid]"}
+{"solution": "def solution(lst):\n    lst = sorted(lst)\n    n = len(lst)\n    if n % 2 == 1:\n        return lst[n // 2]\n    else:\n        return (lst[n // 2 - 1] + lst[n // 2]) / 2"}
+{"solution": "def solution(lst):\n    lst = sorted(lst)\n    n = len(lst)\n    if n == 0:\n        return None\n    mid = n // 2\n    if n % 2 == 1:\n        return lst[mid]\n    else:\n        return (lst[mid - 1] + lst[mid]) / 2"}
+{"solution": "def solution(lst):\n    s = sorted(lst)\n    n = len(s)\n    if n == 0:\n        return None\n    mid = n // 2\n    if n % 2 == 0:\n        return (s[mid - 1] + s[mid]) / 2\n    else:\n        return s[mid]"}

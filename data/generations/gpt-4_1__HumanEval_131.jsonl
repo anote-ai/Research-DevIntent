@@ -1,0 +1,5 @@
+{"solution": "def solution(n):\n    result = 1\n    found = False\n    for d in str(n):\n        if int(d) % 2 == 1:\n            result *= int(d)\n            found = True\n    return result if found else 0"}
+{"solution": "def solution(n):\n    prod = 1\n    has_odd = False\n    for d in str(n):\n        digit = int(d)\n        if digit % 2 == 1:\n            prod *= digit\n            has_odd = True\n    return prod if has_odd else 0"}
+{"solution": "def solution(n):\n    product = 1\n    has_odd = False\n    for d in str(n):\n        if int(d) % 2 == 1:\n            product *= int(d)\n            has_odd = True\n    return product if has_odd else 0"}
+{"solution": "def solution(n):\n    prod = 1\n    found = False\n    for d in str(n):\n        if int(d) % 2 == 1:\n            prod *= int(d)\n            found = True\n    return prod if found else 0"}
+{"solution": "def solution(n):\n    prod = 1\n    has_odd = False\n    for d in str(n):\n        digit = int(d)\n        if digit % 2 == 1:\n            prod *= digit\n            has_odd = True\n    return prod if has_odd else 0"}

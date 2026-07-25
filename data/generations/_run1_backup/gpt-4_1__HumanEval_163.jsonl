@@ -1,0 +1,5 @@
+{"solution": "def solution(a, b):\n    return [d for d in range(max(0, a), b+1) if d % 2 == 0 and 0 <= d <= 9]"}
+{"solution": "def solution(a, b):\n    return [d for d in range(0, 10, 2) if any(str(d) in str(x) for x in range(a, b+1))]"}
+{"solution": "def solution(a, b):\n    return [d for d in range(10) if d % 2 == 0 and any(str(d) in str(n) for n in range(a, b+1))]"}
+{"solution": "def solution(a, b):\n    result = []\n    for num in range(a, b + 1):\n        for digit in str(num):\n            d = int(digit)\n            if d % 2 == 0 and d not in result:\n                result.append(d)\n    return result"}
+{"solution": "def solution(a, b):\n    result = []\n    for num in range(a, b + 1):\n        for d in str(num):\n            if d in '02468':\n                result.append(int(d))\n    return result"}

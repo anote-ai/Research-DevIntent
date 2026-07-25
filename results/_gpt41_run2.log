@@ -1,0 +1,402 @@
+Loaded 49 spec pairs from data/specs/spec_pairs.jsonl
+
+[HumanEval/26] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/3
+  Solution 2: stated=PASS, hidden_failed=0/3
+  Solution 3: stated=PASS, hidden_failed=0/3
+  Solution 4: stated=PASS, hidden_failed=0/3
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/18] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/2
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=0/2
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/25] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/3
+  Solution 2: stated=PASS, hidden_failed=0/3
+  Solution 3: stated=PASS, hidden_failed=0/3
+  Solution 4: stated=PASS, hidden_failed=0/3
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/12] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C3'])
+
+[HumanEval/20] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/2
+  Solution 2: stated=PASS, hidden_failed=0/2
+  Solution 3: stated=PASS, hidden_failed=0/2
+  Solution 4: stated=PASS, hidden_failed=0/2
+  Solution 5: stated=PASS, hidden_failed=0/2
+
+[HumanEval/21] (algorithm) Generating 5 solutions...
+  Solution 1: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 3: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 4: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/7] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/3
+  Solution 2: stated=PASS, hidden_failed=0/3
+  Solution 3: stated=PASS, hidden_failed=0/3
+  Solution 4: stated=PASS, hidden_failed=0/3
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/47] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/3
+  Solution 2: stated=PASS, hidden_failed=0/3
+  Solution 3: stated=PASS, hidden_failed=0/3
+  Solution 4: stated=PASS, hidden_failed=0/3
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/30] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/3
+  Solution 2: stated=PASS, hidden_failed=0/3
+  Solution 3: stated=PASS, hidden_failed=0/3
+  Solution 4: stated=PASS, hidden_failed=0/3
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/34] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 5: stated=FAIL, hidden_failed=1/1 (['C2'])
+
+[HumanEval/51] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/3
+  Solution 2: stated=PASS, hidden_failed=0/3
+  Solution 3: stated=PASS, hidden_failed=0/3
+  Solution 4: stated=PASS, hidden_failed=0/3
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/57] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/58] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C3'])
+
+[HumanEval/42] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/2
+  Solution 2: stated=PASS, hidden_failed=0/2
+  Solution 3: stated=PASS, hidden_failed=0/2
+  Solution 4: stated=PASS, hidden_failed=0/2
+  Solution 5: stated=PASS, hidden_failed=0/2
+
+[HumanEval/65] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C3'])
+
+[HumanEval/68] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 2: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 3: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 4: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/70] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/3
+  Solution 2: stated=PASS, hidden_failed=0/3
+  Solution 3: stated=PASS, hidden_failed=0/3
+  Solution 4: stated=PASS, hidden_failed=0/3
+  Solution 5: stated=PASS, hidden_failed=0/3
+
+[HumanEval/72] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/3 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/3 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/3 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/3 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/3 (['C2'])
+
+[HumanEval/74] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=0/2
+  Solution 5: stated=PASS, hidden_failed=0/2
+
+[HumanEval/64] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/3 (['C2', 'C3'])
+  Solution 2: stated=PASS, hidden_failed=2/3 (['C2', 'C3'])
+  Solution 3: stated=PASS, hidden_failed=2/3 (['C2', 'C3'])
+  Solution 4: stated=PASS, hidden_failed=2/3 (['C2', 'C3'])
+  Solution 5: stated=PASS, hidden_failed=2/3 (['C2', 'C3'])
+
+[HumanEval/66] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/71] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 3: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 4: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/86] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 3: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 4: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/90] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 2: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 3: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 4: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+  Solution 5: stated=PASS, hidden_failed=2/3 (['C3', 'C4'])
+
+[HumanEval/95] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/3 (['C4'])
+  Solution 2: stated=PASS, hidden_failed=1/3 (['C4'])
+  Solution 3: stated=PASS, hidden_failed=1/3 (['C4'])
+  Solution 4: stated=PASS, hidden_failed=1/3 (['C4'])
+  Solution 5: stated=PASS, hidden_failed=1/3 (['C4'])
+
+[HumanEval/98] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/1
+  Solution 2: stated=PASS, hidden_failed=0/1
+  Solution 3: stated=PASS, hidden_failed=0/1
+  Solution 4: stated=PASS, hidden_failed=0/1
+  Solution 5: stated=PASS, hidden_failed=0/1
+
+[HumanEval/99] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/2
+  Solution 2: stated=PASS, hidden_failed=0/2
+  Solution 3: stated=PASS, hidden_failed=0/2
+  Solution 4: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/102] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C3'])
+
+[HumanEval/104] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/108] (algorithm) Generating 5 solutions...
+  Solution 1: stated=FAIL, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=FAIL, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=FAIL, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=FAIL, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=FAIL, hidden_failed=1/2 (['C2'])
+
+[HumanEval/120] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/2
+  Solution 2: stated=PASS, hidden_failed=0/2
+  Solution 3: stated=PASS, hidden_failed=0/2
+  Solution 4: stated=PASS, hidden_failed=0/2
+  Solution 5: stated=PASS, hidden_failed=0/2
+
+[HumanEval/126] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/3 (['C3'])
+  Solution 2: stated=PASS, hidden_failed=1/3 (['C3'])
+  Solution 3: stated=PASS, hidden_failed=1/3 (['C3'])
+  Solution 4: stated=PASS, hidden_failed=1/3 (['C3'])
+  Solution 5: stated=PASS, hidden_failed=1/3 (['C3'])
+
+[HumanEval/91] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 3: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 4: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/131] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/1
+  Solution 2: stated=PASS, hidden_failed=0/1
+  Solution 3: stated=PASS, hidden_failed=0/1
+  Solution 4: stated=PASS, hidden_failed=0/1
+  Solution 5: stated=PASS, hidden_failed=0/1
+
+[HumanEval/135] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/1
+  Solution 2: stated=PASS, hidden_failed=0/1
+  Solution 3: stated=PASS, hidden_failed=0/1
+  Solution 4: stated=PASS, hidden_failed=0/1
+  Solution 5: stated=PASS, hidden_failed=0/1
+
+[HumanEval/136] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=0/2
+  Solution 2: stated=PASS, hidden_failed=0/2
+  Solution 3: stated=PASS, hidden_failed=0/2
+  Solution 4: stated=PASS, hidden_failed=0/2
+  Solution 5: stated=PASS, hidden_failed=0/2
+
+[HumanEval/140] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/149] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/151] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/158] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/1 (['C2'])
+
+[HumanEval/163] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C3'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C3'])
+
+[HumanEval/88] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/93] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 3: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 4: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/101] (algorithm) Generating 5 solutions...
+  Solution 1: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 3: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 4: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=PASS, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/105] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=0/2
+  Solution 3: stated=PASS, hidden_failed=0/2
+  Solution 4: stated=PASS, hidden_failed=0/2
+  Solution 5: stated=PASS, hidden_failed=0/2
+
+[HumanEval/111] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/112] (algorithm) Generating 5 solutions...
+  Solution 1: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 2: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 3: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 4: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+  Solution 5: stated=FAIL, hidden_failed=2/2 (['C2', 'C3'])
+
+[HumanEval/145] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/2 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/2 (['C2'])
+
+[HumanEval/161] (algorithm) Generating 5 solutions...
+  Solution 1: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 2: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 3: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 4: stated=PASS, hidden_failed=1/1 (['C2'])
+  Solution 5: stated=PASS, hidden_failed=1/1 (['C2'])
+
+--- IVR Results ---
+  HumanEval/26: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/18: IVR=0.600 (3/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/25: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/12: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/20: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/21: IVR=0.000 (0/0 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/7: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/47: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/30: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/34: IVR=1.000 (4/4 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/51: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/57: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/58: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/42: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/65: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/68: IVR=0.800 (4/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/70: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/72: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/74: IVR=0.600 (3/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/64: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/66: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/71: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/86: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/90: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/95: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/98: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/99: IVR=0.400 (2/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/102: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/104: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/108: IVR=0.000 (0/0 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/120: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/126: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/91: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/131: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/135: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/136: IVR=0.000 (0/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/140: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/149: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/151: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/158: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/163: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/88: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/93: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/101: IVR=1.000 (4/4 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/105: IVR=0.200 (1/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/111: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/112: IVR=0.000 (0/0 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/145: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+  HumanEval/161: IVR=1.000 (5/5 passing-stated solutions violate >= 1 hidden constraint)
+
+Overall IVR (mean across tasks with >= 1 passing-stated solution): 0.643
+
+IVR by spec type:
+  algorithm: 0.643
+
+Full results saved to results/experiment1_gpt-4_1.json
